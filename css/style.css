@@ -30,6 +30,8 @@ h2 {
 }
 
 h3 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 24px;
   color: #40E0D0;
 }
 
@@ -53,8 +55,9 @@ nav {
   margin: auto;
 }
 
-img {
-  width: 50%;
+
+img{
+  width: 50%
 }
 
 .categories {
@@ -68,6 +71,24 @@ img {
 }
 
 .categories a:hover {
+  color: #40E0D0;
+}
+
+.contact{
+  text-align: center;
+}
+
+.contact h1{
+  text-align: center;
+}
+
+.email_contact a{
+  text-decoration: none;
+  color: black;
+}
+
+.email_contact a:hover{
+  text-decoration: none;
   color: #40E0D0;
 }
 
