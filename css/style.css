@@ -11,7 +11,20 @@ h1 {
   font-size: 50px;
   padding: 20px 10px 0 0;
   margin: auto;
+}
+.header h1{
+  color: #808080;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: lighter;
+  font-size: 50px;
+  padding: 20px 10px 0 0;
+  margin: auto;
   text-align: left;
+}
+
+
+p{
+  font-family: "Josefin Sans", sans-serif;
 }
 
 a {
@@ -33,10 +46,6 @@ h3 {
   font-family: "Josefin Sans", sans-serif;
   font-size: 24px;
   color: #40E0D0;
-}
-
-main {
-  border-bottom: .5px solid #40E0D0;
 }
 
 .front img {
@@ -76,10 +85,16 @@ img{
 
 .contact{
   text-align: center;
+  clear: both;
 }
 
 .contact h1{
   text-align: center;
+}
+
+.contact_img{
+  width: 100px;
+  margin: auto;
 }
 
 .email_contact a{
@@ -92,8 +107,38 @@ img{
   color: #40E0D0;
 }
 
+/*Projects*/
+
+.projects_header h3{
+  text-align: left;
+}
+
+.projects{
+  text-align: center;
+  width: 100%;
+}
+
+.project1, .project3, .project2, .project4{
+  clear: both;
+}
+.project1 img, .project3 img{
+  float: right;
+}
+
+.project2 img, .project4 img{
+  float: left;
+}
+
+.project1 a{
+  clear: both;
+}
+
 footer{
   text-align: center;
+  border-top: .5px solid #40E0D0;
+  border-bottom: .5px solid #40E0D0;
+  margin-bottom: 20px;
+  clear: both;
 }
 .social img {
   width: 30px;
@@ -106,7 +151,7 @@ footer{
 
 /* MEDIA QUERIES */
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 600px) {
 
 
 }
