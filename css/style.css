@@ -29,7 +29,6 @@ p{
 
 a {
   text-decoration: none;
-
 }
 
 h2 {
@@ -71,8 +70,8 @@ img{
 
 .greeting_intro{
   position: absolute;
-  margin-top: -690px;
-  margin-left: 30px;
+  margin-top: -670px;
+  margin-left: 50px;
   line-height: 1.25;
 
   -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
