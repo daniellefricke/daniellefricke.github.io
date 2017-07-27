@@ -43,7 +43,8 @@ h2 {
 
 h3 {
   font-family: "Josefin Sans", sans-serif;
-  font-size: 24px;
+  text-align: center;
+  font-size: 45px;
   color: #40E0D0;
 }
 
@@ -111,6 +112,7 @@ img{
 
 .greeting_intro h1{
   color:  #40E0D0;
+  text-shadow: 2px 2px white;
   font-size: 60px;
   font-weight: bolder;
 }
@@ -154,10 +156,36 @@ img{
   color: #ffffff;
 }
 
-/*Projects*/
 
-.projects_header h3{
+/*About*/
+.about p{
+  font-size: 30px;
+}
+
+
+
+/*Skills*/
+.skills_images{
+  display: inline-block;
+}
+
+.skills_images img{
+
+  display: inline-block;
+  position: relative;
+  margin: auto;
+  padding: 10px;
+  height: 40px;
+}
+
+
+/*Projects*/
+.projects_header{
   text-align: left;
+}
+
+.project1_content h3, .project3_content h3, .project2_content h3, .project4_content h3{
+  font-size: 25px;
 }
 
 .projects{
