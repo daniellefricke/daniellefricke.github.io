@@ -67,7 +67,7 @@ img{
   width: 50%
 }
 
-.greeting_intro{
+/*.greeting_intro{
   position: absolute;
   margin-top: -670px;
   margin-left: 50px;
@@ -108,18 +108,19 @@ img{
     from { opacity: 0; }
 }
 
-.greeting_intro h1{
+/*.greeting_intro h1{
   color:  #40E0D0;
   text-shadow: 2px 2px white;
   font-size: 60px;
   font-weight: bolder;
-}
+}*/
 
 .about p{
   text-align: left;
+  color: #808080;
 }
 .categories {
-  padding: 20px;
+  padding: 25px;
 }
 
 .categories a{
@@ -137,8 +138,8 @@ img{
 .about h3, .skills h3, .projects h3{
   padding: 5px;
   border-bottom: .5px solid #40E0D0;
-
 }
+
 .contact{
   text-align: center;
   clear: both;
@@ -274,7 +275,80 @@ footer{
 
 /* MEDIA QUERIES */
 
+@media only screen and (max-width: 1000px) {
+
+  body{
+    width: 80%;
+  }
+
+  /*Skills*/
+  .skills_images{
+    margin: auto;
+    width: 100%;
+  }
+
+
+  /*projects*/
+  .project1 img, .project3 img, .project2 img, .project4 img{
+    float: none;
+    width: 70%;
+  }
+
+  .project2_content, .project4_content, .project1_content, .project3_content{
+    float: none;
+    width: 80%;
+    margin: auto;
+}
+    .project1_content h1, .project3_content h1, .project2_content h1, .project4_content h1{
+      padding-top: 10px;
+      margin-top: 5px;
+    }
+
+
+
+}
+
+
 @media only screen and (max-width: 600px) {
 
+  body{
+    width: 90%;
+  }
+
+  .header h1{
+    font-size: 30px;
+  }
+  .about p{
+    font-size: 20px;
+  }
+
+  .categories {
+    padding: 10px;
+    display: inline-grid;
+  }
+
+  .about h3, .skills h3, .projects h3{
+    font-size: 30px;
+  }
+
+  .project1 img, .project3 img, .project2 img, .project4 img{
+    float: none;
+    width: 90%;
+  }
+
+  .project2_content, .project4_content, .project1_content, .project3_content{
+    float: none;
+    width: 100%;
+    margin: auto;
+    padding: 0;
+  }
+
+  .project1_content h1, .project3_content h1, .project2_content h1, .project4_content h1{
+    font-size: 30px;
+  }
+
+  .contact h1{
+    font-size: 30px;
+  }
 
 }
