@@ -13,6 +13,7 @@ h1 {
   margin: auto;
 }
 .header h1{
+  position: fixed;
   color: #808080;
   font-family: "Josefin Sans", sans-serif;
   font-weight: lighter;
