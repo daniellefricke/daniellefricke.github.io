@@ -12,8 +12,11 @@ h1 {
   padding: 20px 10px 0 0;
   margin: auto;
 }
-.header h1{
+
+.header{
   position: fixed;
+}
+.header h1{
   color: #808080;
   font-family: "Josefin Sans", sans-serif;
   font-weight: lighter;
