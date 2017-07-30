@@ -54,6 +54,7 @@ h3 {
 }
 
 nav {
+  position: fixed;
   width: 100%;
   text-align: center;
   font-family: "Josefin Sans", sans-serif;
