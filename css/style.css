@@ -224,7 +224,7 @@ img{
 
 }
 
-.project1_content, .project3_content, .project2_content, .project4_content{
+.project1_content, .project3_content, .project2_content, .project4_content, .project5_content{
   width: 45%;
 }
 
@@ -232,16 +232,16 @@ img{
   float: right;
 }
 
-.project1_content, .project3_content{
+.project1_content, .project3_content, .project5_content{
   float: left;
 }
 
-.project1_content h1, .project3_content h1, .project2_content h1, .project4_content h1{
+.project1_content h1, .project3_content h1, .project2_content h1, .project4_content h1, .project5_content h1{
   padding-top: 80px;
   margin-top: 20px;
 }
 
-.project1_content h4, .project3_content h4, .project2_content h4, .project4_content h4{
+.project1_content h4, .project3_content h4, .project2_content h4, .project4_content h4, .project5_content h4{
   font-size: 25px;
   font-family: "Josefin Sans", sans-serif;
   color: #40E0D0;
@@ -249,14 +249,14 @@ img{
   margin: auto;
 }
 
-.project1_content a, .project3_content a, .project2_content a, .project4_content a{
+.project1_content a, .project3_content a, .project2_content a, .project4_content a, .project5_content a{
   color: #808080;
   text-decoration: none;
   font-family: "Josefin Sans", sans-serif;
   font-size: 15px;
 }
 
-.project1_content a:hover, .project3_content a:hover, .project2_content a:hover, .project4_content a:hover{
+.project1_content a:hover, .project3_content a:hover, .project2_content a:hover, .project4_content a:hover, .project5_content a:hover,{
   color: #40E0D0;
 }
 
@@ -269,10 +269,10 @@ img{
   text-align: left;
 }
 
-.project1, .project3, .project2, .project4{
+.project1, .project3, .project2, .project4, .project5{
   clear: both;
 }
-.project1 img, .project3 img{
+.project1 img, .project3 img, .project5 img{
   float: right;
 }
 
